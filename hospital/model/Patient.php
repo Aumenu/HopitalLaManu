@@ -61,6 +61,12 @@ class Patients extends Db
         return $result->number;      
   }
 
+  public function getPatientListByOrder(): array
+  {
+      $query = 'SELECT `id`, `lastname`,`firstname`,`birthdate`,`phone`,`mail` FROM `patients` ORDER BY `lastname` ASC';
+      return $this->getQueryResult($query);
+  }
+
   public function inPatient() {
     $query = 'SELECT `id`, `lastname`, `firstname`, `birthdate`, `phone`, `mail` FROM `patients` WHERE `id`= $id';
     return $this->getQueryResult($query);
@@ -96,6 +102,8 @@ $stmt->bindParam(':phone', $this->phone, PDO::PARAM_STR);
 $stmt->bindParam(':mail', $this->mail, PDO::PARAM_STR);
 $stmt->execute();
 }
+
+
   
 
 }

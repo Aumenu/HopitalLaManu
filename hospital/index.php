@@ -28,7 +28,10 @@
           <a class="nav-link active" href="liste-patient.php">Liste des patients</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link">Disabled</a>
+          <a class="nav-link active" href="ajout-rendezvous.php">Prise de rendez-vous</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="liste-rendezvous.php">liste des rendez-vous</a>
         </li>
       </ul>
     </div>

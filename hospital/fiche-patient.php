@@ -67,7 +67,7 @@ require 'controllers/fiche-patientCtrl.php';
             <input type="mail" id="mail" name="mail"  class="inputForm" value="<?= $patientbyid->mail ?>">
         </div>
         <div class="button">
-            <input type="submit"  value="Modification" class="ModifyButton" name="dataFormModifydPatients">
+            <input type="submit"  value="Modification" class="ModifyButton" name="dataFormModifydPatients" id="dataFormModifydPatients">
         </div>
     </form>
     <?php } else { ?>

@@ -129,4 +129,30 @@ td{
     font-size: 120%;
 }
 
+#dataFormModifydPatients{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 24%;
+    background-color: blue;
+    color: white;
+    padding: 15px 20px;
+    font-size: 120%;
+}
+
+#dataFormModifydPatients:hover{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 24%;
+    background-color: cyan;
+    color: black;
+    padding: 20px 25px;
+    font-size: 120%;
+}
+
+h2{
+    margin-top: 10px;
+    margin-left: 47%;
+}
+
+
 

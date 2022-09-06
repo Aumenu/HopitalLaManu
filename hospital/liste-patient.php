@@ -30,7 +30,7 @@ if (is_array($patientList)) { ?>
                         <td><?= $patient->id ?></td>
                         <td><?= $patient->lastname ?></td>
                         <td><?= $patient->firstname ?></td>
-                        <td><a href="fiche-patient.php?id=<?= $patient->id ?>">plus d'information</a></td>
+                        <td><a href="fiche-patient.php?id=<?= $patient->id ?>">plus d'information ou modification</a></td>
                     </tr>
                 <?php   } ?>
             </tbody>
@@ -40,6 +40,7 @@ if (is_array($patientList)) { ?>
     <?php }
     ?>
     <a href="ajout-patient.php" ><button id="buttonAjoutPatient">Ajout d'un nouveau patient</button></a>
+    
 </body>
 
 </div>
